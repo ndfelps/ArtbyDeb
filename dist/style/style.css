@@ -1,0 +1,86 @@
+html {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	/*height: 200px;
+	background-color: lightgray;
+	background-image: linear-gradient(lightgray, darkgrey)*/
+	height: 120px;
+	background-color: white;
+	color: black;
+}
+.nav {
+	font-size: 16px;
+	background-color: black;
+	border-top-width: 1px;
+	width: 100%;
+	padding-left:13%;
+	height: 28px;
+	margin-bottom: 0px;
+}
+.nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.nav ul a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+.nav ul li {
+	position: relative;
+	float: left;
+	padding: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-bottom: 0px;
+}
+.navSec {
+	border-left: solid grey 1px;
+}
+.navSec:hover {
+	color: rgb(230, 39, 134);
+	background-color: white;
+}
+.navSec:hover a {
+	color: rgb(230, 39, 134);
+}
+#shop {
+	border-right: solid black 1px;
+	margin-right: 0px;
+	padding-right: 5%;
+}
+.nav ul li.current {
+	background-color: black;
+}
+.nav ul ul {
+	position: absolute;
+	display: none;
+	top: 100%;
+	left: 0;
+	right: 0;
+}
+.nav ul ul li {
+	float: none;
+	width: 150px;
+}
+.nav ul ul a {
+	line-height: 120%;
+	padding: 10px 15px;
+}
+.nav ul ul ul {
+	top: 0;
+	left: 100%;
+}
+.nav ul li:hover > ul {
+	display: block;
+}
