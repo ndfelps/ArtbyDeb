@@ -12,8 +12,8 @@ header {
 	background-color: lightgray;
 	background-image: linear-gradient(lightgray, darkgrey)*/
 	height: 120px;
-	background-color: white;
-	color: black;
+	background-color: black;
+	color: white;
 }
 .nav {
 	font-size: 16px;
@@ -60,18 +60,22 @@ header {
 	padding-right: 5%;
 }
 .nav ul li.current {
-	background-color: black;
+	background-color: white;
 }
 .nav ul ul {
 	position: absolute;
+	background-color: white;
 	display: none;
 	top: 100%;
 	left: 0;
 	right: 0;
 }
+.nav ul ul li:hover {
+	background-color: black;
+}
 .nav ul ul li {
 	float: none;
-	width: 150px;
+
 }
 .nav ul ul a {
 	line-height: 120%;
@@ -83,4 +87,12 @@ header {
 }
 .nav ul li:hover > ul {
 	display: block;
+}
+.car {
+	height: 400px;
+	width: 100%;
+	background: no-repeat;
+	background-size: cover !important;
+	background-image: url(http://i.huffpost.com/gen/1968853/thumbs/o-5-POINTZ-900.jpg?1);
+	transition: fade 2s;
 }
