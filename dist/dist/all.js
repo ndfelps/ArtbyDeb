@@ -32570,6 +32570,7 @@ $(document).ready(function () {
       $('.car').css('background', "url(http://www.robertmitchellartist.com.au/images/Mosman_2.JPG?47) no-repeat");
     } else if (counter === 3) {
       $('.car').css('background', "url(http://media-cdn.tripadvisor.com/media/photo-s/02/78/c3/d6/976-art-gallery.jpg) no-repeat");
+      counter = -1;
     }
   }
 });
